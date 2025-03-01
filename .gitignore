@@ -1,0 +1,41 @@
+# Ignore Python cache files
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+
+# Ignore virtual environment
+venv/
+env/
+
+# Ignore environment variables & secrets
+.env
+*.sqlite3
+instance/
+
+# Ignore log files
+*.log
+logs/
+*.pid
+nohup.out
+
+# Ignore compiled files
+*.so
+
+# Ignore Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Ignore VS Code & PyCharm settings
+.vscode/
+.idea/
+
+# Ignore Flask migrations (if using Flask-Migrate)
+migrations/
+
+# Ignore coverage & test reports
+htmlcov/
+.coverage
+.pytest_cache/
+
+# Ignore Node modules (if using front-end)
+node_modules/
